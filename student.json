@@ -1,0 +1,106 @@
+{"studen":[
+
+
+    {
+        "name":"breshna naim",
+
+        "age":30,
+        "grade":"second",
+        "major":"Computer Science"
+    }
+
+    {
+        "name": "Alice Johnson",
+        "age": 20,
+        "grade": "Junior",
+        "major": "Computer Science"
+      },
+      {
+        "name": "mustafa",
+        "age": 8,
+        "grade": "third",
+        "major": "playing game"
+      },
+      {
+        "name": "Asma waheed",
+        "age": 9,
+        "grade": "third",
+        "major": "reading"
+      },
+      {
+        "name": "Emily Davis",
+        "age": 21,
+        "grade": "Junior",
+        "major": "Biology"
+      },
+      {
+        "name": "Chris Williams",
+        "age": 23,
+        "grade": "Senior",
+        "major": "Physics"
+      },
+      {
+        "name": "Sophia Martinez",
+        "age": 20,
+        "grade": "Sophomore",
+        "major": "Chemistry"
+      },
+      {
+        "name": "Daniel Miller",
+        "age": 22,
+        "grade": "Junior",
+        "major": "Psychology"
+      },
+      {
+        "name": "Olivia Brown",
+        "age": 19,
+        "grade": "Freshman",
+        "major": "English Literature"
+      },
+      {
+        "name": "Ethan Taylor",
+        "age": 21,
+        "grade": "Junior",
+        "major": "History"
+      },
+      {
+        "name": "Ava Wilson",
+        "age": 22,
+        "grade": "Senior",
+        "major": "Political Science"
+      },
+      {
+        "name": "Mia Anderson",
+        "age": 20,
+        "grade": "Sophomore",
+        "major": "Sociology"
+      },
+      {
+        "name": "Noah Moore",
+        "age": 19,
+        "grade": "Freshman",
+        "major": "Economics"
+      },
+      {
+        "name": "Emma Garcia",
+        "age": 21,
+        "grade": "Junior",
+        "major": "Communications"
+      },
+
+      {
+        "name": "Liam Rodriguez",
+        "age": 22,
+        "grade": "Senior",
+        "major": "Marketing"
+      },
+      {
+        "name": "Abigail Lee",
+        "age": 20,
+        "grade": "Sophomore",
+        "major": "Art History"
+      }
+
+]
+
+}
