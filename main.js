@@ -3,8 +3,12 @@
 
     let petsData = [];
   
-    function fetchPetData() {
-        return fetch('student.json')
+    function fetchData() {
+
+      return new Promise((resolve, reject) => {
+        // Simulating asynchronous data fetching
+        setTimeout(() => {
+         fetch('student.json')
             .then(response =>{
                 if(!response.ok){
                     throw new Error("Failed to fetch data.");
@@ -55,7 +59,7 @@
     
   
     
-    document.getElementById('filterComputerScience').addEventListener('click', function () {
+    document.getElementById('filtercomputerscience').addEventListener('click', function () {
         fetchData()
           .then(data => {
         
@@ -65,7 +69,7 @@
           .catch(error => {
             displayDataOrError(null, error);
           });
-      });
+      })
     
       document.getElementById('calculateAvgAge').addEventListener('click', function () {
         fetchData()
@@ -82,7 +86,7 @@
             console.error("Error fetching data", error);
             alert('Error fetching data. Please try again later.');
         })
-        document.getElementById('filterOddIndex').addEventListener('click', function () {
+        document.getElementById('filteroddindex').addEventListener('click', function () {
             fetchData()
               .then(data => {
                 // Filter students with odd index values
