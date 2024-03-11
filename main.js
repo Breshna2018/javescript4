@@ -16,7 +16,7 @@
                 
             
 
-            setTimeout(()=>{
+            
 
             
                 resolve(data);
@@ -35,7 +35,7 @@
     
 
 
-    }
+    
   
     
     function displaystudent(student){
